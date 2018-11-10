@@ -7,13 +7,13 @@ namespace NoteApp
     /// </summary>
     public class Note
     {
-        private string _name;
+        private string _mynotename;
         /// <summary>
         /// Поле отвечает за присваивание имени заметке
         /// </summary>
         public string Name
         {
-            get => _name;
+            get => _mynotename;
             set
             {
                 if (value.Length > 50)
@@ -22,7 +22,7 @@ namespace NoteApp
                 }
                 else
                 {
-                    _name = value;
+                    _mynotename = value;
                     LastEditDate = DateTime.Now;
                 }
             }

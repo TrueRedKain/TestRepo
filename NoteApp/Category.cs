@@ -9,9 +9,9 @@ namespace NoteApp
     /// <summary>
     /// Перечисление, определяющее тип создаваемой заметки.
     /// </summary>
-        public enum NoteCategory
+        public enum CategoryOfNote
         {
-        /// <param name="NoteCategory">
+        /// <param name="CategoryOfNote">
         /// Тип заметки задается целочисленным значением от 1 до 7
         /// </param>
             Home = 1,
